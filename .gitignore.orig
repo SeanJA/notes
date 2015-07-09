@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+/vendor
+/node_modules
+Homestead.yaml
+=======
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+>>>>>>> 66cdb72cbd6f892c120be112a064506a325ad0d4
+.env
