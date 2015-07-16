@@ -39,6 +39,17 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <script id="echochamber">
+                    var EchoChamber = window.EchoChamber || {};
+                    (function() {
+                        EchoChamber.discussionURL = window.location;
+                        var script = document.createElement('script');
+                        script.src = 'https://s3.amazonaws.com/echochamberjs/dist/main.js';
+                        script.async = true;
+                        var entry = document.getElementById('echochamber');
+                        entry.parentNode.insertBefore(script, entry);
+                    })();
+                </script>
             </div>
         </div>
     </body>
